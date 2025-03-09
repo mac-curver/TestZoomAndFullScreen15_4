@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="17150" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="17150"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="22690"/>
+        <capability name="NSView safe area layout guides" minToolsVersion="12.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -11,13 +12,21 @@
             </connections>
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
-        <customObject id="-3" userLabel="Application"/>
-        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModuleProvider="target">
-            <connections>
-                <outlet property="window" destination="QvC-M9-y7g" id="gIp-Ho-8D9"/>
-            </connections>
-        </customObject>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="TestZoomAndFullScreen15_4" customModuleProvider="target"/>
         <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+        <viewController id="Dyj-J6-MAR" customClass="LabelBasedViewController" customModule="TestZoomAndFullScreen15_4" customModuleProvider="target">
+            <connections>
+                <outlet property="resizingLabel" destination="DpG-fv-M34" id="r5o-Aj-faR"/>
+                <outlet property="view" destination="EiT-Mj-1SZ" id="kdA-BQ-Eqo"/>
+            </connections>
+        </viewController>
+        <viewController id="yAf-Yv-fUX" customClass="LayerBasedViewController" customModule="TestZoomAndFullScreen15_4" customModuleProvider="target">
+            <connections>
+                <outlet property="resizingLayerView" destination="yGZ-d5-Cwz" id="vVa-v2-ovz"/>
+                <outlet property="view" destination="38p-7K-sbh" id="34K-gg-27H"/>
+            </connections>
+        </viewController>
         <menu title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
             <items>
                 <menuItem title="TestZoomAndFullScreen15_4" id="1Xt-HY-uBw">
@@ -680,19 +689,57 @@
             </items>
             <point key="canvasLocation" x="200" y="121"/>
         </menu>
-        <window title="TestZoomAndFullScreen15_4" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g">
+        <window title="LabelBasedZoom15_4" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="335" y="390" width="480" height="360"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1415"/>
+            <rect key="contentRect" x="1086" y="377" width="480" height="360"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1728" height="1079"/>
             <view key="contentView" id="EiT-Mj-1SZ">
                 <rect key="frame" x="0.0" y="0.0" width="480" height="360"/>
                 <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DpG-fv-M34">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="360"/>
+                        <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="Xy" drawsBackground="YES" id="cdh-ft-cVP">
+                            <font key="font" size="200" name="Helvetica"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" red="0.99712985089999995" green="1" blue="0.22175147549999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textFieldCell>
+                    </textField>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="DpG-fv-M34" secondAttribute="trailing" id="5zF-4l-Ljj"/>
+                    <constraint firstItem="DpG-fv-M34" firstAttribute="top" secondItem="EiT-Mj-1SZ" secondAttribute="top" id="FCF-yw-3zX"/>
+                    <constraint firstAttribute="bottom" secondItem="DpG-fv-M34" secondAttribute="bottom" id="Thj-un-dtM"/>
+                    <constraint firstItem="DpG-fv-M34" firstAttribute="leading" secondItem="EiT-Mj-1SZ" secondAttribute="leading" id="riB-sc-gSc"/>
+                </constraints>
             </view>
             <connections>
-                <outlet property="delegate" destination="Voe-Tx-rLC" id="top-28-M4D"/>
+                <outlet property="delegate" destination="Dyj-J6-MAR" id="q1q-Oz-0xv"/>
             </connections>
-            <point key="canvasLocation" x="200" y="400"/>
+            <point key="canvasLocation" x="200" y="440"/>
+        </window>
+        <window title="LayerBasedZoom15_4" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" frameAutosaveName="" animationBehavior="default" id="hMM-bO-tvf">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="190" y="337" width="480" height="360"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1728" height="1079"/>
+            <view key="contentView" autoresizesSubviews="NO" translatesAutoresizingMaskIntoConstraints="NO" id="38p-7K-sbh">
+                <rect key="frame" x="0.0" y="0.0" width="480" height="360"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <customView autoresizesSubviews="NO" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yGZ-d5-Cwz" customClass="ResizingLayerView" customModule="TestZoomAndFullScreen15_4" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="360"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="adu-gJ-IGH"/>
+                        <viewLayoutGuide key="layoutMargins" id="olP-dp-jur"/>
+                    </customView>
+                </subviews>
+            </view>
+            <connections>
+                <outlet property="delegate" destination="yAf-Yv-fUX" id="D6C-Ak-4Vi"/>
+            </connections>
+            <point key="canvasLocation" x="1291" y="337"/>
         </window>
     </objects>
 </document>

@@ -10,27 +10,10 @@
 		262FEC742D7C5F6B00FCDB66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262FEC732D7C5F6B00FCDB66 /* AppDelegate.swift */; };
 		262FEC762D7C5F6C00FCDB66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 262FEC752D7C5F6C00FCDB66 /* Assets.xcassets */; };
 		262FEC792D7C5F6C00FCDB66 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 262FEC782D7C5F6C00FCDB66 /* Base */; };
-		262FEC842D7C5F6C00FCDB66 /* TestZoomAndFullScreen15_4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262FEC832D7C5F6C00FCDB66 /* TestZoomAndFullScreen15_4Tests.swift */; };
-		262FEC8E2D7C5F6C00FCDB66 /* TestZoomAndFullScreen15_4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262FEC8D2D7C5F6C00FCDB66 /* TestZoomAndFullScreen15_4UITests.swift */; };
-		262FEC902D7C5F6C00FCDB66 /* TestZoomAndFullScreen15_4UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262FEC8F2D7C5F6C00FCDB66 /* TestZoomAndFullScreen15_4UITestsLaunchTests.swift */; };
+		266274602D7D756A00221A68 /* LabelBasedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2662745F2D7D756A00221A68 /* LabelBasedViewController.swift */; };
+		266274652D7D767500221A68 /* ResizingLayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266274642D7D767500221A68 /* ResizingLayerView.swift */; };
+		266274672D7D799C00221A68 /* LayerBasedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266274662D7D799C00221A68 /* LayerBasedViewController.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		262FEC802D7C5F6C00FCDB66 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 262FEC682D7C5F6B00FCDB66 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 262FEC6F2D7C5F6B00FCDB66;
-			remoteInfo = TestZoomAndFullScreen15_4;
-		};
-		262FEC8A2D7C5F6C00FCDB66 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 262FEC682D7C5F6B00FCDB66 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 262FEC6F2D7C5F6B00FCDB66;
-			remoteInfo = TestZoomAndFullScreen15_4;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		262FEC702D7C5F6B00FCDB66 /* TestZoomAndFullScreen15_4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestZoomAndFullScreen15_4.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,29 +21,13 @@
 		262FEC752D7C5F6C00FCDB66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		262FEC782D7C5F6C00FCDB66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		262FEC7A2D7C5F6C00FCDB66 /* TestZoomAndFullScreen15_4.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestZoomAndFullScreen15_4.entitlements; sourceTree = "<group>"; };
-		262FEC7F2D7C5F6C00FCDB66 /* TestZoomAndFullScreen15_4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestZoomAndFullScreen15_4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		262FEC832D7C5F6C00FCDB66 /* TestZoomAndFullScreen15_4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestZoomAndFullScreen15_4Tests.swift; sourceTree = "<group>"; };
-		262FEC892D7C5F6C00FCDB66 /* TestZoomAndFullScreen15_4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestZoomAndFullScreen15_4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		262FEC8D2D7C5F6C00FCDB66 /* TestZoomAndFullScreen15_4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestZoomAndFullScreen15_4UITests.swift; sourceTree = "<group>"; };
-		262FEC8F2D7C5F6C00FCDB66 /* TestZoomAndFullScreen15_4UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestZoomAndFullScreen15_4UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2662745F2D7D756A00221A68 /* LabelBasedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelBasedViewController.swift; sourceTree = "<group>"; };
+		266274642D7D767500221A68 /* ResizingLayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizingLayerView.swift; sourceTree = "<group>"; };
+		266274662D7D799C00221A68 /* LayerBasedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerBasedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		262FEC6D2D7C5F6B00FCDB66 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		262FEC7C2D7C5F6C00FCDB66 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		262FEC862D7C5F6C00FCDB66 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,8 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				262FEC722D7C5F6B00FCDB66 /* TestZoomAndFullScreen15_4 */,
-				262FEC822D7C5F6C00FCDB66 /* TestZoomAndFullScreen15_4Tests */,
-				262FEC8C2D7C5F6C00FCDB66 /* TestZoomAndFullScreen15_4UITests */,
 				262FEC712D7C5F6B00FCDB66 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,8 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				262FEC702D7C5F6B00FCDB66 /* TestZoomAndFullScreen15_4.app */,
-				262FEC7F2D7C5F6C00FCDB66 /* TestZoomAndFullScreen15_4Tests.xctest */,
-				262FEC892D7C5F6C00FCDB66 /* TestZoomAndFullScreen15_4UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,29 +56,15 @@
 		262FEC722D7C5F6B00FCDB66 /* TestZoomAndFullScreen15_4 */ = {
 			isa = PBXGroup;
 			children = (
+				2662745F2D7D756A00221A68 /* LabelBasedViewController.swift */,
+				266274662D7D799C00221A68 /* LayerBasedViewController.swift */,
+				266274642D7D767500221A68 /* ResizingLayerView.swift */,
 				262FEC732D7C5F6B00FCDB66 /* AppDelegate.swift */,
 				262FEC752D7C5F6C00FCDB66 /* Assets.xcassets */,
 				262FEC772D7C5F6C00FCDB66 /* MainMenu.xib */,
 				262FEC7A2D7C5F6C00FCDB66 /* TestZoomAndFullScreen15_4.entitlements */,
 			);
 			path = TestZoomAndFullScreen15_4;
-			sourceTree = "<group>";
-		};
-		262FEC822D7C5F6C00FCDB66 /* TestZoomAndFullScreen15_4Tests */ = {
-			isa = PBXGroup;
-			children = (
-				262FEC832D7C5F6C00FCDB66 /* TestZoomAndFullScreen15_4Tests.swift */,
-			);
-			path = TestZoomAndFullScreen15_4Tests;
-			sourceTree = "<group>";
-		};
-		262FEC8C2D7C5F6C00FCDB66 /* TestZoomAndFullScreen15_4UITests */ = {
-			isa = PBXGroup;
-			children = (
-				262FEC8D2D7C5F6C00FCDB66 /* TestZoomAndFullScreen15_4UITests.swift */,
-				262FEC8F2D7C5F6C00FCDB66 /* TestZoomAndFullScreen15_4UITestsLaunchTests.swift */,
-			);
-			path = TestZoomAndFullScreen15_4UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,42 +87,6 @@
 			productReference = 262FEC702D7C5F6B00FCDB66 /* TestZoomAndFullScreen15_4.app */;
 			productType = "com.apple.product-type.application";
 		};
-		262FEC7E2D7C5F6C00FCDB66 /* TestZoomAndFullScreen15_4Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 262FEC962D7C5F6C00FCDB66 /* Build configuration list for PBXNativeTarget "TestZoomAndFullScreen15_4Tests" */;
-			buildPhases = (
-				262FEC7B2D7C5F6C00FCDB66 /* Sources */,
-				262FEC7C2D7C5F6C00FCDB66 /* Frameworks */,
-				262FEC7D2D7C5F6C00FCDB66 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				262FEC812D7C5F6C00FCDB66 /* PBXTargetDependency */,
-			);
-			name = TestZoomAndFullScreen15_4Tests;
-			productName = TestZoomAndFullScreen15_4Tests;
-			productReference = 262FEC7F2D7C5F6C00FCDB66 /* TestZoomAndFullScreen15_4Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		262FEC882D7C5F6C00FCDB66 /* TestZoomAndFullScreen15_4UITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 262FEC992D7C5F6C00FCDB66 /* Build configuration list for PBXNativeTarget "TestZoomAndFullScreen15_4UITests" */;
-			buildPhases = (
-				262FEC852D7C5F6C00FCDB66 /* Sources */,
-				262FEC862D7C5F6C00FCDB66 /* Frameworks */,
-				262FEC872D7C5F6C00FCDB66 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				262FEC8B2D7C5F6C00FCDB66 /* PBXTargetDependency */,
-			);
-			name = TestZoomAndFullScreen15_4UITests;
-			productName = TestZoomAndFullScreen15_4UITests;
-			productReference = 262FEC892D7C5F6C00FCDB66 /* TestZoomAndFullScreen15_4UITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -186,14 +99,6 @@
 				TargetAttributes = {
 					262FEC6F2D7C5F6B00FCDB66 = {
 						CreatedOnToolsVersion = 15.4;
-					};
-					262FEC7E2D7C5F6C00FCDB66 = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 262FEC6F2D7C5F6B00FCDB66;
-					};
-					262FEC882D7C5F6C00FCDB66 = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 262FEC6F2D7C5F6B00FCDB66;
 					};
 				};
 			};
@@ -211,8 +116,6 @@
 			projectRoot = "";
 			targets = (
 				262FEC6F2D7C5F6B00FCDB66 /* TestZoomAndFullScreen15_4 */,
-				262FEC7E2D7C5F6C00FCDB66 /* TestZoomAndFullScreen15_4Tests */,
-				262FEC882D7C5F6C00FCDB66 /* TestZoomAndFullScreen15_4UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -227,20 +130,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		262FEC7D2D7C5F6C00FCDB66 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		262FEC872D7C5F6C00FCDB66 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -248,41 +137,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				266274652D7D767500221A68 /* ResizingLayerView.swift in Sources */,
+				266274602D7D756A00221A68 /* LabelBasedViewController.swift in Sources */,
 				262FEC742D7C5F6B00FCDB66 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		262FEC7B2D7C5F6C00FCDB66 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				262FEC842D7C5F6C00FCDB66 /* TestZoomAndFullScreen15_4Tests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		262FEC852D7C5F6C00FCDB66 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				262FEC8E2D7C5F6C00FCDB66 /* TestZoomAndFullScreen15_4UITests.swift in Sources */,
-				262FEC902D7C5F6C00FCDB66 /* TestZoomAndFullScreen15_4UITestsLaunchTests.swift in Sources */,
+				266274672D7D799C00221A68 /* LayerBasedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		262FEC812D7C5F6C00FCDB66 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 262FEC6F2D7C5F6B00FCDB66 /* TestZoomAndFullScreen15_4 */;
-			targetProxy = 262FEC802D7C5F6C00FCDB66 /* PBXContainerItemProxy */;
-		};
-		262FEC8B2D7C5F6C00FCDB66 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 262FEC6F2D7C5F6B00FCDB66 /* TestZoomAndFullScreen15_4 */;
-			targetProxy = 262FEC8A2D7C5F6C00FCDB66 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		262FEC772D7C5F6C00FCDB66 /* MainMenu.xib */ = {
@@ -468,78 +330,6 @@
 			};
 			name = Release;
 		};
-		262FEC972D7C5F6C00FCDB66 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = P8TSSKQDC4;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "de.legoEsprit.TestZoomAndFullScreen15-4Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestZoomAndFullScreen15_4.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TestZoomAndFullScreen15_4";
-			};
-			name = Debug;
-		};
-		262FEC982D7C5F6C00FCDB66 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = P8TSSKQDC4;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "de.legoEsprit.TestZoomAndFullScreen15-4Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestZoomAndFullScreen15_4.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TestZoomAndFullScreen15_4";
-			};
-			name = Release;
-		};
-		262FEC9A2D7C5F6C00FCDB66 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = P8TSSKQDC4;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "de.legoEsprit.TestZoomAndFullScreen15-4UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = TestZoomAndFullScreen15_4;
-			};
-			name = Debug;
-		};
-		262FEC9B2D7C5F6C00FCDB66 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = P8TSSKQDC4;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "de.legoEsprit.TestZoomAndFullScreen15-4UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = TestZoomAndFullScreen15_4;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -557,24 +347,6 @@
 			buildConfigurations = (
 				262FEC942D7C5F6C00FCDB66 /* Debug */,
 				262FEC952D7C5F6C00FCDB66 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		262FEC962D7C5F6C00FCDB66 /* Build configuration list for PBXNativeTarget "TestZoomAndFullScreen15_4Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				262FEC972D7C5F6C00FCDB66 /* Debug */,
-				262FEC982D7C5F6C00FCDB66 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		262FEC992D7C5F6C00FCDB66 /* Build configuration list for PBXNativeTarget "TestZoomAndFullScreen15_4UITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				262FEC9A2D7C5F6C00FCDB66 /* Debug */,
-				262FEC9B2D7C5F6C00FCDB66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
