@@ -8,9 +8,11 @@ The one with the yellow background displays a text as NSLabel (NSTextField) and 
 ![expectedFullScreen](https://github.com/user-attachments/assets/e61abc4a-5404-4c8b-9a32-89c8ee4053b7)
 *Pic2: Expected scaling in full screen*
 
-The expected scaling here is forced by adding 
-    func windowDidEnterFullScreen(_ notification: Notification) {
-        resizingLayerView.willResize(suppressImplicitAnimation: false)
-    }
-as NSWindowDelegate method. But then the zoom animation is very ugly.
+The expected scaling here is forced by adding ...  
+  
+    func windowDidEnterFullScreen(_ notification: Notification) {  
+         resizingLayerView.willResize(suppressImplicitAnimation: false)  
+    }  
+  
+...as NSWindowDelegate method. But then the zoom animation is very ugly.
 
