@@ -26,11 +26,11 @@ extension LayerBasedViewController: NSWindowDelegate {
     }
     
     func windowDidExitFullScreen(_ notification: Notification) {
-        resizingLayerView.willResize(suppressImpicitAnimation: false)
+        resizingLayerView.willResize(suppressImplicitAnimation: false)
     }
     
     func windowDidEnterFullScreen(_ notification: Notification) {
-        resizingLayerView.willResize(suppressImpicitAnimation: false)
+        resizingLayerView.willResize(suppressImplicitAnimation: false)
     }
 
 }

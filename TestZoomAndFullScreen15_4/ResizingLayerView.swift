@@ -23,14 +23,14 @@ class ResizingLayerView: NSView {
         wantsLayer = true
     }
     
-    func willResize(suppressImpicitAnimation: Bool = true) {
-        if suppressImpicitAnimation {
+    func willResize(suppressImplicitAnimation: Bool = true) {
+        if suppressImplicitAnimation {
             CATransaction.begin()
             CATransaction.setDisableActions(true)
         }
         text.fontSize = bounds.height * 200/360
         text.frame = bounds
-        if suppressImpicitAnimation {
+        if suppressImplicitAnimation {
             CATransaction.commit()
         }
     }
