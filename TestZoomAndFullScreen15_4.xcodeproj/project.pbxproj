@@ -20,6 +20,7 @@
 		26148DB12D82FCAA0093B0A5 /* ResizingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizingLabel.swift; sourceTree = "<group>"; };
 		26148DB32D830E2D0093B0A5 /* LayerBasedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerBasedViewController.swift; sourceTree = "<group>"; };
 		26148DB92D86D83B0093B0A5 /* MyLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLogger.swift; sourceTree = "<group>"; };
+		26148DD32D873F3B0093B0A5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		262FEC702D7C5F6B00FCDB66 /* TestZoomAndFullScreen15_4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestZoomAndFullScreen15_4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		262FEC732D7C5F6B00FCDB66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		262FEC752D7C5F6C00FCDB66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -42,6 +43,7 @@
 		262FEC672D7C5F6B00FCDB66 = {
 			isa = PBXGroup;
 			children = (
+				26148DD32D873F3B0093B0A5 /* README.md */,
 				262FEC722D7C5F6B00FCDB66 /* TestZoomAndFullScreen15_4 */,
 				262FEC712D7C5F6B00FCDB66 /* Products */,
 			);
