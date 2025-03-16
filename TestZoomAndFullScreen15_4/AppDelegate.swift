@@ -8,12 +8,15 @@
 
 import Cocoa
 
+let ignored = 0.0
+
 @main
 class AppDelegate: NSObject, NSApplicationDelegate {
 
+    @IBOutlet weak var laverBasedWindow: NSWindow!
+    
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // Insert code here to initialize your application
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
@@ -27,7 +30,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool {
         true
     }
-
-
+    
+    
 }
 

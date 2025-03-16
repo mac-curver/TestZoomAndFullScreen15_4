@@ -7,23 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26148DB22D82FCAA0093B0A5 /* ResizingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26148DB12D82FCAA0093B0A5 /* ResizingLabel.swift */; };
+		26148DB42D830E2D0093B0A5 /* LayerBasedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26148DB32D830E2D0093B0A5 /* LayerBasedViewController.swift */; };
+		26148DBA2D86D83B0093B0A5 /* MyLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26148DB92D86D83B0093B0A5 /* MyLogger.swift */; };
 		262FEC742D7C5F6B00FCDB66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262FEC732D7C5F6B00FCDB66 /* AppDelegate.swift */; };
 		262FEC762D7C5F6C00FCDB66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 262FEC752D7C5F6C00FCDB66 /* Assets.xcassets */; };
 		262FEC792D7C5F6C00FCDB66 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 262FEC782D7C5F6C00FCDB66 /* Base */; };
-		266274602D7D756A00221A68 /* LabelBasedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2662745F2D7D756A00221A68 /* LabelBasedViewController.swift */; };
 		266274652D7D767500221A68 /* ResizingLayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266274642D7D767500221A68 /* ResizingLayerView.swift */; };
-		266274672D7D799C00221A68 /* LayerBasedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266274662D7D799C00221A68 /* LayerBasedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		26148DB12D82FCAA0093B0A5 /* ResizingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizingLabel.swift; sourceTree = "<group>"; };
+		26148DB32D830E2D0093B0A5 /* LayerBasedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerBasedViewController.swift; sourceTree = "<group>"; };
+		26148DB92D86D83B0093B0A5 /* MyLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLogger.swift; sourceTree = "<group>"; };
 		262FEC702D7C5F6B00FCDB66 /* TestZoomAndFullScreen15_4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestZoomAndFullScreen15_4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		262FEC732D7C5F6B00FCDB66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		262FEC752D7C5F6C00FCDB66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		262FEC782D7C5F6C00FCDB66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		262FEC7A2D7C5F6C00FCDB66 /* TestZoomAndFullScreen15_4.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestZoomAndFullScreen15_4.entitlements; sourceTree = "<group>"; };
-		2662745F2D7D756A00221A68 /* LabelBasedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelBasedViewController.swift; sourceTree = "<group>"; };
 		266274642D7D767500221A68 /* ResizingLayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizingLayerView.swift; sourceTree = "<group>"; };
-		266274662D7D799C00221A68 /* LayerBasedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerBasedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +58,11 @@
 		262FEC722D7C5F6B00FCDB66 /* TestZoomAndFullScreen15_4 */ = {
 			isa = PBXGroup;
 			children = (
-				2662745F2D7D756A00221A68 /* LabelBasedViewController.swift */,
-				266274662D7D799C00221A68 /* LayerBasedViewController.swift */,
-				266274642D7D767500221A68 /* ResizingLayerView.swift */,
+				26148DB92D86D83B0093B0A5 /* MyLogger.swift */,
 				262FEC732D7C5F6B00FCDB66 /* AppDelegate.swift */,
+				26148DB12D82FCAA0093B0A5 /* ResizingLabel.swift */,
+				26148DB32D830E2D0093B0A5 /* LayerBasedViewController.swift */,
+				266274642D7D767500221A68 /* ResizingLayerView.swift */,
 				262FEC752D7C5F6C00FCDB66 /* Assets.xcassets */,
 				262FEC772D7C5F6C00FCDB66 /* MainMenu.xib */,
 				262FEC7A2D7C5F6C00FCDB66 /* TestZoomAndFullScreen15_4.entitlements */,
@@ -95,7 +98,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
-				LastUpgradeCheck = 1540;
+				LastUpgradeCheck = 1620;
 				TargetAttributes = {
 					262FEC6F2D7C5F6B00FCDB66 = {
 						CreatedOnToolsVersion = 15.4;
@@ -137,10 +140,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26148DB42D830E2D0093B0A5 /* LayerBasedViewController.swift in Sources */,
 				266274652D7D767500221A68 /* ResizingLayerView.swift in Sources */,
-				266274602D7D756A00221A68 /* LabelBasedViewController.swift in Sources */,
+				26148DBA2D86D83B0093B0A5 /* MyLogger.swift in Sources */,
+				26148DB22D82FCAA0093B0A5 /* ResizingLabel.swift in Sources */,
 				262FEC742D7C5F6B00FCDB66 /* AppDelegate.swift in Sources */,
-				266274672D7D799C00221A68 /* LayerBasedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +196,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -255,6 +260,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -285,6 +291,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = P8TSSKQDC4;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -312,6 +319,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = P8TSSKQDC4;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
